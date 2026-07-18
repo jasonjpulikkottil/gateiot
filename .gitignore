@@ -1,0 +1,27 @@
+# Next.js / Web application dependencies and build files
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+web/.vercel/
+
+# Environment files
+web/.env*.local
+web/.env
+!web/.env.example
+!web/.env.local.example
+
+# Python compilation and environment files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS and temporary files
+.DS_Store
+*.pem
+Thumbs.db
+*.tmp
+*.bak
